@@ -1,0 +1,50 @@
+body {
+    background: url('assets/landing_page_50.jpg');
+}
+
+.table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
+    background-color: #f2d473;
+}
+
+.click-row {
+    cursor: pointer;
+}
+
+#save-button, #cancel-button {
+    display: none;
+}
+
+.view-input {
+    display: none;
+}
+
+.top-buttons { padding-top: 50px; }
+
+#landing-page-buttons {
+    min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+    min-height: 100vh; /* These two lines are counted as one :-)       */
+
+    display: flex;
+    align-items: center;
+}
+
+.search-result {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#logo {
+    padding-top: 2.5rem;
+    width: 20rem
+}
+
+.icon-button {
+    border: 0;
+    background: none;
+}
+
+.material-icons { cursor: pointer; }
+.material-icons.md-20 { font-size: 20px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }
